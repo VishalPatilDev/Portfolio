@@ -1,4 +1,5 @@
 import { SectionLabel } from "./About";
+import resumePdf from "../assets/VishalPatil_Resume.pdf";
 
 const resumeHighlights = [
     { label: "Full Stack Projects", value: "2" },
@@ -176,19 +177,19 @@ ACHIEVEMENTS
                         </div>
 
                         {/* Download button */}
-                        <a href="src/assets/VishalPatil_Resume.pdf">
-                        <button  style={{
-                            width: "100%", background: "#3b82f6", color: "#fff",
-                            border: "none", padding: "0.9rem 1.5rem", borderRadius: "10px",
-                            fontFamily: "'Space Grotesk', sans-serif", fontWeight: 600,
-                            fontSize: "0.95rem", cursor: "pointer", transition: "all 0.2s",
-                            display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem",
-                        }}
-                            onMouseEnter={e => { e.currentTarget.style.background = "#2563eb"; e.currentTarget.style.transform = "translateY(-2px)"; }}
-                            onMouseLeave={e => { e.currentTarget.style.background = "#3b82f6"; e.currentTarget.style.transform = "translateY(0)"; }}
-                        >
-                            ⬇ Download Resume
-                        </button>
+                        <a href={resumePdf} download="VishalPatil_Resume.pdf">
+                            <button style={{
+                                width: "100%", background: "#3b82f6", color: "#fff",
+                                border: "none", padding: "0.9rem 1.5rem", borderRadius: "10px",
+                                fontFamily: "'Space Grotesk', sans-serif", fontWeight: 600,
+                                fontSize: "0.95rem", cursor: "pointer", transition: "all 0.2s",
+                                display: "flex", alignItems: "center", justifyContent: "center", gap: "0.5rem",
+                            }}
+                                onMouseEnter={e => { e.currentTarget.style.background = "#2563eb"; e.currentTarget.style.transform = "translateY(-2px)"; }}
+                                onMouseLeave={e => { e.currentTarget.style.background = "#3b82f6"; e.currentTarget.style.transform = "translateY(0)"; }}
+                            >
+                                ⬇ Download Resume
+                            </button>
                         </a>
 
                         <p style={{
