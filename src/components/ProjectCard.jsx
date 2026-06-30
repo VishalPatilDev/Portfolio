@@ -21,7 +21,6 @@ const projects = [
     title: "Smart Inventory Management",
     subtitle: "Full Stack Enterprise System",
     github: "https://github.com/VishalPatilDev/Full_Stack_Projects/tree/main/smart_inventory_management",
-    project_link: "smart-inventory-manage.netlify.app",
     stack: [
       "Java",
       "Spring Boot",
@@ -111,6 +110,7 @@ function ProjectCard({ project, index }) {
           >
             ↗ GitHub
           </a>
+          
         </div>
 
         {/* Tech stack */}
