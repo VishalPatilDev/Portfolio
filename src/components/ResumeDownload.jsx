@@ -2,7 +2,7 @@ import { SectionLabel } from "./About";
 import resumePdf from "../assets/VishalPatil_Resume.pdf";
 
 const resumeHighlights = [
-    { label: "Full Stack Projects", value: "2" },
+    { label: "Full Stack Projects", value: "2+" },
     { label: "REST APIs Built", value: "25+" },
     { label: "Technologies", value: "15+" },
     { label: "Certifications", value: "4" },

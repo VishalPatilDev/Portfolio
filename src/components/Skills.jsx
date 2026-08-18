@@ -14,7 +14,7 @@ const skillGroups = [
   {
     category: "Frontend",
     icon: "🖥️",
-    skills: ["React.js", "HTML5", "CSS3"],
+    skills: ["React.js", "HTML5", "CSS3", "Tailwindcss", "Shadcn", "Responsive UI"],
   },
   {
     category: "Databases",
